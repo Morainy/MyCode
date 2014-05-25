@@ -86,6 +86,7 @@ void permutation(int n)
 		swap(&a[itemp-1] , &a[jtemp]);
 		reverse(a , itemp , n);
 	}
+	free(a);
 }
 int main(int argc ,char *argv[])
 {

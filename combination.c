@@ -52,6 +52,8 @@ void combination(int n , int r)
 			printf("%d ", c[j]);
 		}
 	printf("\n");
+	free(p);
+	free(c);
 }
 int main(int argc ,char * argv[])
 {
